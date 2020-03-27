@@ -1,5 +1,5 @@
 # Requirents-For-Darknet
-generate_train.py will generate train.txt file
+# generate_train.py will generate train.txt file
 
 open cmd on darknet folder, and run this file by typing "python generate_train.py" in cmd.
 Then u will find a text file named as train.txt in data folder. 
