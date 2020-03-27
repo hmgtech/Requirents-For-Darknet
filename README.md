@@ -9,8 +9,14 @@ Apart from this, i made a video how to use it. you can refer it also. link: http
 # After Labeling  the image we need to download darknet repository. 
 Clone this : https://github.com/AlexeyAB/darknet
 
-# After downloading darknet:
-we need to extract the it. And we have to make it.
+# We also need to download pre-trained weights for training purpose.
+to download this: Link: https://pjreddie.com/media/files/darknet53.conv.74 (153 MB)
+
+# After downloading darknet and pretrained weights:
+we need to extract darknet and paste "darknet53.convo.74.weights" in darknet folder. And we have to make it.
+
+After make, we need to modify yolov3-custom, obj.names, obj.data, coco.names, train.txt, test.txt.
+"data/obj" folder will contain our images and labels.
 
 # generate_train.py will generate train.txt file
 
