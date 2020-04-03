@@ -1,0 +1,6 @@
+king
+queen
+ten
+jack
+nine
+ace
